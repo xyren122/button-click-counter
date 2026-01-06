@@ -41,6 +41,11 @@ input {
     background-color: #161616;
     color: white;
     font-weight: 700;
+    cursor: default;
+}
+
+input:focus {
+    outline: none;
 }
 
 .btn-wrapper {
@@ -92,4 +97,5 @@ input {
 .reset-btn:hover {
     background: hsl(0, 0%, 10%);
     border: 2px solid white;
+
 }
